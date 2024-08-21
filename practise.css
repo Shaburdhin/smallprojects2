@@ -1,0 +1,39 @@
+*{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+table{
+    border-style: solid;
+    border-width: 2px;
+
+}
+
+tr,td{
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.one{
+    color: cornflowerblue;
+}
+
+.two{
+    color: orange;
+}
+
+.three{
+    color:blueviolet
+}
+
+.four{
+    color:green
+}
+
+.five{
+    color:red
+}

@@ -1,0 +1,96 @@
+.tr1{
+    background-color: blue;
+    color: chartreuse;
+
+}
+
+.tr2{
+    background-color: aqua;
+
+}
+.tr3{
+    background-color: aquamarine;
+    color: brown;
+}
+
+.tr4{
+    background-color: fuchsia;
+    color: gold;
+}
+
+.tr5{
+    background-color:gray ;
+    color: rgb(228, 46, 46);
+}
+
+.tr6{
+    background-color:violet ;
+    color: brown;
+
+}
+/* *{
+    background-color: yellow;
+    font-style:italic;
+    color:darkred;
+}   */
+
+.one{
+    background-color: aqua;
+}
+.two{
+    background-color: blue;
+}
+
+.three{
+    background-color: blueviolet;
+}
+
+.four{
+    background-color: brown;
+}
+
+.five{
+    background-color: cadetblue;
+}
+
+.six{
+    background-color:chartreuse;
+
+}
+.seven{
+    background-color:cornflowerblue;
+}
+.eight{
+    background-color: crimson;
+}
+
+.nine{
+    background-color: darkviolet;
+}
+
+
+.ten{
+    background-color: darkslateblue;
+}
+
+.go{
+    background-color: black;
+    color: yellow;
+    padding: 20PX;
+    height: 50px;
+    width: 500px;
+    padding-top: 30px;
+    padding-right: 30px;
+    text-align:center;
+} 
+.lets{
+    background-color: slategray;
+    border-width: 15px;
+    border-style: solid;
+    border-color: black;
+    padding: 40px;
+    width: 500px;
+    height: 100px;
+
+
+}

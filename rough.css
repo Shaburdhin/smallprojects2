@@ -1,0 +1,32 @@
+*{
+    background-color: green;
+}
+
+.one,p,ul,h3{
+    
+    background-color:rgb(3, 58, 28);
+    color: rgb(86, 168, 123);
+    display: inline-block;
+    padding-right: 200px;
+
+
+}
+li{
+    background-color:rgb(3, 58, 28);
+    color: rgb(86, 168, 123);
+    display: inline-block; 
+    border-width: 2px;
+    padding-right: 25px;
+}
+
+.two,h2,b{
+    background-color:rgb(3, 58, 28);
+    color: rgb(86, 168, 123);
+    display: block;
+    height: 100px;
+    width: 200px;
+    border: 2px solid;
+    border-radius:200px
+
+}
+
