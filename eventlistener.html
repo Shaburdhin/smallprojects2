@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventlistener</title>
+    <style>
+        #container {
+            height: 400px;
+            width: 400px;
+            background-color: palevioletred;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 90px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        #container:hover {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        Click Me 🥰
+    </div>
+
+    <script>
+
+        //eventlistener = listen for specific events
+        //                to create interactive web pages.
+        //                 events:click,mouseover,mouseout
+        //              .addEventListenter(event,function);     
+        //
+
+        const mybox = document.getElementById("container");
+
+        mybox.addEventListener("click", event => {
+            event.target.style.backgroundColor = "blue";
+            event.target.textContent = "HAPPY!🤩";
+        });
+    </script>
+</body>
+
+</html>
